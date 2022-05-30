@@ -1,0 +1,50 @@
+.header_topo {
+    width: 100%;
+    background-color: #000000;
+}
+
+#wavy_topo_content {
+    max-width: 1200px;
+    min-height: 80px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.wavy_logo_header {
+    height: 50px;
+    margin: 15px 0;
+    max-width: 250px;
+    padding: 4px 4px;
+}
+
+.nav_menu_topo {
+    flex-basis: calc(100% - 190px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav_menu_topo ul {
+    display: flex;
+    align-items: stretch;
+}
+
+.nav_menu_topo ul li {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+}
+
+.nav_menu_topo ul li a {
+    padding: 0 20px;
+    display: flex;
+    color: white;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.nav_menu_topo ul li a:hover {
+    transition: 0.2s;
+    color: #E4A428;
+}
