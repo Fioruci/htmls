@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/style_index.css">
+    <link rel="stylesheet" href="../css/style_search.css">
     <link rel="stylesheet" href="../css/fonticon.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="../css/pages/page_is_index.css">
+    <link rel="stylesheet" href="../css/pages/page_is_search.css">
     <title> Wavy - O SEU lugar de música! </title>
 </head>
 <body>
@@ -38,8 +38,8 @@
                 <div class="main_conteudo_left">
                     <div class="nav_menu_left">
                         <ul>
-                            <li> <a href="#" class="icon-home" id="left_inicio"> Início </a>  </li>
-                            <li> <a href="buscar.html" class="icon-search buscar"> Buscar </a>  </li>
+                            <li> <a href="index.html" class="icon-home" id="left_inicio"> Início </a>  </li>
+                            <li> <a href="#" class="icon-search" id="left_buscar"> Buscar </a>  </li>
                             <li> <a href="#" class="icon-menu playlists"> Playlists </a>  </li>
                             <li> <a href="#" class="icon-heart favoritos"> Favoritas </a>  </li>
                             <li> <a href="#" class="grey_text"> Legal & FAQ </a> </li>
@@ -52,12 +52,16 @@
                 <div class="main_conteudo_right">
                     <header class="main_header_recomendados">
                         <h1>
-                            Recomendados do dia
+                            Mais procurados HOJE
                         </h1>
+
+                        <input type="text" placeholder="Qual a vibe hoje?" size="30" id="search_input" class="icon-search">
                     </header>
 
                     <div class="card_musica">
-                        <img class="img_album" src="../img/album.jpg" alt="Capa da Música" title="Capa da música" width="175px" height="150px">
+                        <a href="#">
+                        <img class="img_album" src="../img/album.jpg" alt="Capa da Música" title="Capa da música" width="115px" height="100px">
+                        </a>
 
                         <div class="container_card">
                             <h1 class="nome_musica">
@@ -71,7 +75,9 @@
                     </div>
 
                     <div class="card_musica">
-                        <img class="img_album" src="../img/album.jpg" alt="Capa da Música" title="Capa da música" width="175px" height="150px">
+                        <a href="#">
+                            <img class="img_album" src="../img/album.jpg" alt="Capa da Música" title="Capa da música" width="115px" height="100px">
+                        </a>
 
                         <div class="container_card">
                             <h1 class="nome_musica">
@@ -85,7 +91,9 @@
                     </div>
 
                     <div class="card_musica">
-                        <img class="img_album" src="../img/album.jpg" alt="Capa da Música" title="Capa da música" width="175px" height="150px">
+                        <a href="#">
+                        <img class="img_album" src="../img/album.jpg" alt="Capa da Música" title="Capa da música" width="115px" height="100px">
+                        </a>
 
                         <div class="container_card">
                             <h1 class="nome_musica">
@@ -99,70 +107,10 @@
                     </div>
 
                     <div class="card_musica">
-                        <img class="img_album" src="../img/album.jpg" alt="Capa da Música" title="Capa da música" width="175px" height="150px">
-
-                        <div class="container_card">
-                            <h1 class="nome_musica">
-                                Top Músicas
-                            </h1>
-
-                            <p class="desc_album">
-                                Nome do álbum
-                            </p>
-                        </div>
-                    </div>
-
-                    <header class="main_header_populares">
-                        <h1>
-                            Populares
-                        </h1>
-                    </header>
-
-                    <div class="card_musica">
-                        <img class="img_album" src="../img/album.jpg" alt="Capa da Música" title="Capa da música" width="175px" height="150px">
-
-                        <div class="container_card">
-                            <h1 class="nome_musica">
-                                Top Músicas
-                            </h1>
-
-                            <p class="desc_album">
-                                Nome do álbum
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="card_musica">
-                        <img class="img_album" src="../img/album.jpg" alt="Capa da Música" title="Capa da música" width="175px" height="150px">
-
-                        <div class="container_card">
-                            <h1 class="nome_musica">
-                                Top Músicas
-                            </h1>
-
-                            <p class="desc_album">
-                                Nome do álbum
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="card_musica">
-                        <img class="img_album" src="../img/album.jpg" alt="Capa da Música" title="Capa da música" width="175px" height="150px">
-
-                        <div class="container_card">
-                            <h1 class="nome_musica">
-                                Top Músicas
-                            </h1>
-
-                            <p class="desc_album">
-                                Nome do álbum
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="card_musica">
-                        <img class="img_album" src="../img/album.jpg" alt="Capa da Música" title="Capa da música" width="175px" height="150px">
-
+                        <a href="#">
+                        <img class="img_album" src="../img/album.jpg" alt="Capa da Música" title="Capa da música" width="115px" height="100px">
+                        </a>
+                        
                         <div class="container_card">
                             <h1 class="nome_musica">
                                 Top Músicas
