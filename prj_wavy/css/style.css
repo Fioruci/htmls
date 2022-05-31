@@ -3,6 +3,54 @@
     background-color: #000000;
 }
 
+.main_conteudo {
+    width: 100%;
+    background-color: #222121;
+}
+
+#wavy_main_content {
+    min-height: 80px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main_conteudo_left {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.nav_menu_left {
+    margin-top: 20px;
+    max-width: 100%;
+    color: white;
+    justify-content: flex-end;
+    display: flex;
+    align-items: stretch;
+}
+
+.nav_menu_left li {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.nav_menu_left a {
+    color: white;
+    transition: 0.2s;
+}
+
+.nav_menu_left a:hover {
+    color:#E4A428;
+    transition: 0.2s;
+}
+
+
+
 #wavy_topo_content {
     max-width: 1200px;
     min-height: 80px;
