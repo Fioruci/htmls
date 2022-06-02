@@ -23,10 +23,17 @@
     background-color: #000000;
 }
 
+
+
 .card_musica {
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    align-content: flex-start;
     color: white;
     display: inline-flex;
-    width: 700px;
+    max-width: 700px;
+    min-width: 350px;
     margin-left: 60px;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -37,12 +44,14 @@
 }
 
 .container_card {
+    width: calc(100% - 150px);
     padding: 4px 16px;
 }
 
 .container_card h1 {
-    margin-top: 20px;
+    margin-top: 30px;
 }
+
 
 .container_card p {
     font-size: 0.75em;
@@ -80,17 +89,28 @@
 }
 
 .main_header_recomendados {
+    flex-wrap: wrap;
+    flex-direction: row;
     display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
     color: white;
     font-weight: 400;
     margin-top: 30px;
     margin-left: 60px;
 }
 
+
 #search_input {
-    margin-left: 250px;
+    height: 10px;
+    padding: 10px;
+    margin-right: 30px;
+    background-color: #131111;
     background-color: white;
     border-radius: 25px;
+    border: unset;
+    outline: none;
 }
 
 input[type=text] {
@@ -98,8 +118,9 @@ input[type=text] {
     background-position: 10px 4px;
     background-size: 16px;
     background-repeat: no-repeat;
-    padding-left: 40px;
-    padding-right: 40px;
+    text-align: center;
+    /* padding-left: 40px;
+    padding-right: 40px; */
 }
 
 input::placeholder {
@@ -114,7 +135,6 @@ input::placeholder {
 }
 
 .grey_text {
-    position: absolute;
     margin-bottom: 0;
     bottom: 0;
     justify-content: center;
